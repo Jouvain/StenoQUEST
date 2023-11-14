@@ -1,0 +1,97 @@
+/***** VARIABLES *********/
+/******* MIXINS ***********/
+/*********** BASE **********/
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+h2 {
+  color: #2E294E;
+  text-align: center;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/******* LAYOUT *********/
+.header {
+  display: flex;
+  justify-content: center;
+  color: #2E294E;
+  text-align: center;
+  background-color: #2CCEBB;
+  font-family: "Agbalumo";
+}
+
+.gamebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #25616D;
+  margin: 5rem 15rem;
+  border-radius: 1rem;
+}
+.gamebox__button {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  background-color: white;
+  margin: 2rem;
+  color: #2E294E;
+  font-family: "Agbalumo";
+  font-size: 2rem;
+  box-shadow: 0 0 5px white;
+  border: none;
+  transition: box-shadow 400ms;
+}
+.gamebox__button:hover {
+  box-shadow: 0 0 10px #2E294E;
+}
+.gamebox__show {
+  width: 50%;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px white;
+  color: #2E294E;
+  text-align: center;
+}
+.gamebox__form {
+  margin: 2rem;
+  width: 40%;
+}
+.gamebox__form input {
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  color: #2E294E;
+  text-align: center;
+  border-style: none;
+  padding: 0.5rem;
+}
+.gamebox__form input:focus-visible {
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 10%;
+  color: #2E294E;
+  background-color: #2CCEBB;
+}
+
+/********** COMPONENTS ******/
+/********* HOMEPAGE *********//*# sourceMappingURL=main.css.map */
